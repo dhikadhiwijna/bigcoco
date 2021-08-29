@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Copyright from "./components/Copyright/Copyright";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import ModalProducts from "./components/ModalProducts/ModalProducts";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import Teams from "./components/Teams/Teams";

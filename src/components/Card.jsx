@@ -1,21 +1,36 @@
 import styled from "styled-components";
-import React from "react";
+import React, { useContext, useEffect } from "react";
+import { ContextStore } from "../Context/ContextStore";
+import { getId } from "../Context/Action";
 
-const Card = ({ image, text, title }) => {
+const Card = ({ image, text, title, id, packaging, spec }) => {
+  const { getProductId, getProductIdDispatch, ModalState, ModalDispatch } =
+    useContext(ContextStore);
+
+  const openDetails = () => {
+    ModalDispatch("OPEN_MODAL");
+    // console.log(getProductId);
+    getProductIdDispatch(getId(id, title, image, text, packaging, spec));
+  };
+
   return (
-    <CardSection>
-      <CardContainer>
-        <TextContainer>
-          <h4>{title}</h4>
-          <img src={image} alt="imgmobile" />
-          <p>{text}</p>
-          <ButtonJumbotron>See Details</ButtonJumbotron>
-        </TextContainer>
-        <ImageContainer>
-          <img src={image} alt="imageCard" />
-        </ImageContainer>
-      </CardContainer>
-    </CardSection>
+    <div>
+      <CardSection>
+        <CardContainer>
+          <TextContainer>
+            <h4>{title}</h4>
+            <img src={image} alt="imgmobile" />
+            <p>{text}</p>
+            <ButtonJumbotron onClick={() => openDetails()}>
+              See Details
+            </ButtonJumbotron>
+          </TextContainer>
+          <ImageContainer>
+            <img src={image} alt="imageCard" />
+          </ImageContainer>
+        </CardContainer>
+      </CardSection>
+    </div>
   );
 };
 

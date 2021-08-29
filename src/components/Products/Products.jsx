@@ -7,6 +7,9 @@ import Slider from "react-slick";
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 import Card from "../Card";
 import styled from "styled-components";
+import ModalProducts from "../ModalProducts/ModalProducts";
+import { useContext } from "react";
+import { ContextStore } from "../../Context/ContextStore";
 
 const Products = () => {
   const settings = {
@@ -19,6 +22,11 @@ const Products = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
+  const { getProductId, getProductIdDispatch, ModalState, ModalDispatch } =
+    useContext(ContextStore);
+
+  const [openModal, setOpenModal] = useState(false);
+  const [tes, setTes] = useState(null);
 
   return (
     <S.Tes id="product">
@@ -26,14 +34,20 @@ const Products = () => {
       <S.ProductSection>
         <Slider {...settings}>
           {DataProducts.map((value, index) => (
-            <Card
-              title={value.title}
-              image={value.img}
-              text={value.text}
-              key={index}
-            />
+            <div key={index}>
+              <Card
+                title={value.title}
+                image={value.img}
+                text={value.text}
+                id={value.id}
+                packaging={value.packaging}
+                spec={value.spec}
+              />
+            </div>
           ))}
         </Slider>
+
+        {ModalState && <ModalProducts id={getProductId} />}
       </S.ProductSection>
     </S.Tes>
   );

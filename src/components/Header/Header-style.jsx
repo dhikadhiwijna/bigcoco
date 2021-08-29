@@ -6,9 +6,17 @@ export const HeaderSection = styled.div`
   height: 100vh;
   position: relative;
 
-  & > img {
+  /* & > img {
     width: 100%;
     object-fit: cover;
+  } */
+
+  & > video {
+    width: 100%;
+    object-fit: cover;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+    -moz-transform: rotateY(180deg); /* Firefox */
   }
 `;
 
@@ -72,7 +80,7 @@ export const QuoteDiv = styled.div`
 export const ButtonJumbotron = styled.div`
   margin-top: 56px;
   border: 1px solid #fff;
-  border-radius: 6px;
+  border-radius: 50px;
   padding: 10px 24px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -80,5 +88,47 @@ export const ButtonJumbotron = styled.div`
   font-size: 18px;
   line-height: 32px;
   background-color: transparent;
-  width: 150px;
+  width: 250px;
+`;
+
+export const Box = styled.div`
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+
+  & > .times {
+    z-index: 101;
+  }
+`;
+
+export const BoxContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: ${colors.darkGreen};
+`;
+
+export const ModalLogo = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: 30px;
+  /* background-color: red; */
+  width: 100%;
+`;
+
+export const Text = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 100%;
+
+  & > h3 {
+    color: white;
+  }
 `;

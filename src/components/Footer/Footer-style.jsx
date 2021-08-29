@@ -14,7 +14,7 @@ export const FooterContainer = styled(StyledContainer)`
 export const FooterTitle = styled.div`
   text-align: center;
 
-  & > h3 {
+  & > h4 {
     color: white;
   }
 
@@ -40,7 +40,7 @@ export const MainFooter = styled.div`
 export const LeftContainer = styled.div`
   max-width: 500px;
 
-  & > h4 {
+  & > h5 {
     color: ${colors.white};
     padding-bottom: 30px;
   }
@@ -51,7 +51,7 @@ export const LeftContainer = styled.div`
 `;
 
 export const SocialMedia = styled.div`
-  & > h4 {
+  & > h5 {
     color: ${colors.white};
     padding-bottom: 30px;
   }

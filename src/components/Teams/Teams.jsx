@@ -18,7 +18,7 @@ const Teams = () => {
               <img src={abid} alt="abid" />
             </S.ImageContainer>
             <h5>Abid Robbani</h5>
-            <h6>Grand Master V</h6>
+            <h6>Founder</h6>
             <p>
               Kesuksesan seseorang selalu berawal dari mimpi. Jika begitu
               adanya, marilah kita tidur.{" "}
@@ -31,7 +31,12 @@ const Teams = () => {
                   cursor: "pointer",
                 }}
               >
-                <FaInstagram size={20} />
+                <FaInstagram
+                  size={20}
+                  onClick={() => {
+                    window.open("https://www.instagram.com/abidrobbani/");
+                  }}
+                />
               </div>
               <div
                 style={{
@@ -40,7 +45,14 @@ const Teams = () => {
                   cursor: "pointer",
                 }}
               >
-                <FaLinkedin size={20} />
+                <FaLinkedin
+                  size={20}
+                  onClick={() => {
+                    window.open(
+                      "https://www.linkedin.com/in/abid-robbani-523b9321a/"
+                    );
+                  }}
+                />
               </div>
             </S.SocialMedia>
           </S.Card>
@@ -49,7 +61,7 @@ const Teams = () => {
               <img src={apap} alt="apap" />
             </S.ImageContainer>
             <h5>Naufal Afaf</h5>
-            <h6>Legend II</h6>
+            <h6>Co-Founder</h6>
             <p>Manusia boleh berencana, tapi saldo juga yang menentukan.</p>
             <S.SocialMedia>
               <div
@@ -59,7 +71,12 @@ const Teams = () => {
                   cursor: "pointer",
                 }}
               >
-                <FaInstagram size={20} />
+                <FaInstagram
+                  size={20}
+                  onClick={() => {
+                    window.open("https://www.instagram.com/naufalafaf/");
+                  }}
+                />
               </div>
               <div
                 style={{
@@ -68,7 +85,14 @@ const Teams = () => {
                   cursor: "pointer",
                 }}
               >
-                <FaLinkedin size={20} />
+                <FaLinkedin
+                  size={20}
+                  onClick={() => {
+                    window.open(
+                      "https://www.linkedin.com/in/abid-robbani-523b9321a/"
+                    );
+                  }}
+                />
               </div>
             </S.SocialMedia>
           </S.Card>
@@ -77,7 +101,7 @@ const Teams = () => {
               <img src={dhika} alt="dhika" />
             </S.ImageContainer>
             <h5>Adhika Adhiwijna</h5>
-            <h6>Mythic II</h6>
+            <h6>Business Development</h6>
             <p>
               Pekerjaan seberat apapun akan lebih terasa ringan jika kita tidak
               mengerjakannya.
@@ -90,7 +114,12 @@ const Teams = () => {
                   cursor: "pointer",
                 }}
               >
-                <FaInstagram size={20} />
+                <FaInstagram
+                  size={20}
+                  onClick={() => {
+                    window.open("https://www.instagram.com/dhikadhiwijna/");
+                  }}
+                />
               </div>
               <div
                 style={{
@@ -99,7 +128,14 @@ const Teams = () => {
                   cursor: "pointer",
                 }}
               >
-                <FaLinkedin size={20} />
+                <FaLinkedin
+                  size={20}
+                  onClick={() => {
+                    window.open(
+                      "https://www.linkedin.com/in/adhika-adhiwijna-060296/"
+                    );
+                  }}
+                />
               </div>
             </S.SocialMedia>
           </S.Card>
