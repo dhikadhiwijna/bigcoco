@@ -24,7 +24,7 @@ export const HeaderTitle = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(17%, 50%);
+  transform: translate(17%, 80%);
   /* background-color: red; */
   display: flex;
   flex-direction: column;
@@ -48,14 +48,14 @@ export const HeaderTitle = styled.div`
     color: ${colors.white};
     width: 700px;
     max-width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 `;
 
 export const QuoteDiv = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 
   @media (max-width: 1080px) {
     flex-direction: column;
@@ -64,10 +64,11 @@ export const QuoteDiv = styled.div`
     display: none;
   }
 
-  & > h5 {
+  & > h4 {
     color: ${colors.white};
-    margin-left: 25px;
+    /* margin-left: 25px; */
     max-width: 470px;
+    font-weight: 100;
   }
 
   & > img {
@@ -89,6 +90,14 @@ export const ButtonJumbotron = styled.div`
   line-height: 32px;
   background-color: transparent;
   width: 250px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    text-shadow: 0 0 4px white;
+    box-shadow: 0 0 4px white;
+  }
 `;
 
 export const Box = styled.div`

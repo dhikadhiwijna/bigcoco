@@ -6,7 +6,7 @@ import * as S from "./ModalProducts-style";
 const ModalProducts = (id) => {
   const { ModalDispatch } = useContext(ContextStore);
 
-  console.log("Modal", id.id.data);
+  // console.log("Modal", id.id.data);
   const titleProduct = id.id.data[1];
   const idText = id.id.data[3];
   const packaging = id.id.data[4];

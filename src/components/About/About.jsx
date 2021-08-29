@@ -1,4 +1,4 @@
-import aboutus from "../../assets/aboutus.png";
+import aboutus from "../../assets/coconutabout.jpg";
 import * as S from "./About-style";
 
 const About = () => {
@@ -8,17 +8,18 @@ const About = () => {
         <S.AboutTextContainer>
           <h3>About Us</h3>
           <h6>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, unde.
-            Quaerat, hic error! Aspernatur fuga illo magnam expedita optio
-            culpa?
+            We are an Indonesian company engaged in plantation and we also
+            supply raw materials from coconut which will be in production some
+            processed products.
           </h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            sequi recusandae facere explicabo laudantium numquam tenetur dolor
-            eligendi doloremque, asperiores labore corporis quasi facilis
-            aliquam sapiente sed est ut nostrum ipsam. Asperiores perferendis
-            non necessitatibus cum ullam temporibus quos dolores? Porro,
-            consectetur omnis reiciendis repellendus libero quo ab sunt animi.
+            Our company's main activities start from processing more than
+            thousand hectares of coconut plantations in Indonesia, including
+            plasma land; harvesting and processing fresh fruit bunches into
+            coconut oil and coconut kernels, to processing them into a variety
+            of industrial and consumer products such as coconut peat blocks,
+            coir fiber, virgin coconut oil, coconut briquette and trading of
+            coconut-based products throughout the world.
           </p>
         </S.AboutTextContainer>
         <S.LogoContainer>

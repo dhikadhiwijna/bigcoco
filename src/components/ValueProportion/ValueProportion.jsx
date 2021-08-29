@@ -20,8 +20,9 @@ const ValueProportion = () => {
 
             <h4>Integrity</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos esse
-              ab illo rem adipisci? Voluptatem ipsam ex magnam corporis aut?
+              Integrity means telling the truth, keeping our word and treating
+              others with fairness and respect. Integrity is one of our most
+              cherished assets. It must not be compromised.
             </p>
           </S.ValueCard>
           <S.ValueCard>
@@ -30,8 +31,10 @@ const ValueProportion = () => {
             </S.LogoContainer>
             <h4>Quality</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos esse
-              ab illo rem adipisci? Voluptatem ipsam ex magnam corporis aut?
+              Quality is exhibited in many ways by selling and supporting
+              products and services that delight customers, establishing a work
+              environment , delivering financial results that meet investor
+              expectations.
             </p>
           </S.ValueCard>
           <S.ValueCard>
@@ -40,8 +43,10 @@ const ValueProportion = () => {
             </S.LogoContainer>
             <h4>Commitment</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos esse
-              ab illo rem adipisci? Voluptatem ipsam ex magnam corporis aut?
+              Commitment is important where we will continue to provide the best
+              to our customers and investors all the time. Our opportunity to
+              serve should be viewed as a privilege that is not to be taken for
+              granted.
             </p>
           </S.ValueCard>
           <S.ValueCard>
@@ -50,8 +55,9 @@ const ValueProportion = () => {
             </S.LogoContainer>
             <h4>Community</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos esse
-              ab illo rem adipisci? Voluptatem ipsam ex magnam corporis aut?
+              Community involvement can allow people to know our brand, product,
+              or sell better, and helps us create a realiable, trustworthy, and
+              generous business image.
             </p>
           </S.ValueCard>
         </S.Value>

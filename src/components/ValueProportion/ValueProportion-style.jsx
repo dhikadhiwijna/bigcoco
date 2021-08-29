@@ -39,6 +39,7 @@ export const ValueCard = styled.div`
 
   & > p {
     color: ${colors.black};
+    margin-top: 10px;
   }
 `;
 

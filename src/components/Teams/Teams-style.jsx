@@ -65,4 +65,5 @@ export const SocialMedia = styled.div`
   align-items: center;
   max-width: 100%;
   padding-top: 20px;
+  margin-top: 30px;
 `;

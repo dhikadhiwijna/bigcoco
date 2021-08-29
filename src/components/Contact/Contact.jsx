@@ -26,9 +26,9 @@ const Contact = () => {
           <h3>Contact Us!</h3>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ab
-            itaque quo blanditiis nostrum amet repudiandae quam commodi
-            voluptatem? Adipisci?
+            Please feel free to contact us if you need any further information.
+            We look forward to a successful working relationship in the future
+            with you.
           </p>
 
           <form onSubmit={onSubmit}>

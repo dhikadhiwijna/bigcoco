@@ -20,8 +20,9 @@ const Teams = () => {
             <h5>Abid Robbani</h5>
             <h6>Founder</h6>
             <p>
-              Kesuksesan seseorang selalu berawal dari mimpi. Jika begitu
-              adanya, marilah kita tidur.{" "}
+              Your ability to discipline yourself to set clear goals, and then
+              to work toward them every day, will do more to guarantee your
+              success than any other single factor.
             </p>
             <S.SocialMedia>
               <div
@@ -62,7 +63,11 @@ const Teams = () => {
             </S.ImageContainer>
             <h5>Naufal Afaf</h5>
             <h6>Co-Founder</h6>
-            <p>Manusia boleh berencana, tapi saldo juga yang menentukan.</p>
+            <p>
+              “The price of success is hard work, dedication to the job at hand,
+              and the determination that whether we win or lose, we have applied
+              the best of ourselves to the task at hand.
+            </p>
             <S.SocialMedia>
               <div
                 style={{
@@ -103,8 +108,8 @@ const Teams = () => {
             <h5>Adhika Adhiwijna</h5>
             <h6>Business Development</h6>
             <p>
-              Pekerjaan seberat apapun akan lebih terasa ringan jika kita tidak
-              mengerjakannya.
+              If you don’t pay appropriate attention to what has your attention,
+              it will take more of your attention than it deserves.
             </p>
             <S.SocialMedia>
               <div

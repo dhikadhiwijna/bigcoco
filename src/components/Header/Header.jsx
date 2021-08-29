@@ -3,6 +3,7 @@ import abid from "../../assets/abid.jpg";
 import * as S from "./Header-style";
 import coconutvideo from "../../assets/Video/coconut.mp4";
 import { FaChevronDown } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -13,17 +14,27 @@ const Header = () => {
       </video>
       <S.HeaderTitle>
         <S.QuoteDiv>
-          <img src={abid} alt="abidlul" />
-          <h5>
-            "Sometimes coconut is taken in our toilet, ez" -Abid Robbani, CEO
-          </h5>
+          {/* <img src={abid} alt="abidlul" /> */}
+          <h4>
+            Best, reliable, and trustworthy coconut supplier from Indonesia
+          </h4>
         </S.QuoteDiv>
 
-        <h1>We have better coconut than Universal Coco</h1>
+        <h1>Supplying coconut products in the Heart of South East Asia</h1>
 
         <S.ButtonJumbotron>
           <FaChevronDown style={{ marginRight: "10px" }} />
-          Scroll Down
+          {/* Scroll Down */}
+          <Link
+            className="link"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Scroll Down
+          </Link>
         </S.ButtonJumbotron>
       </S.HeaderTitle>
     </S.HeaderSection>

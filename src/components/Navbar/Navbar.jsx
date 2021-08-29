@@ -26,9 +26,6 @@ const Navbar = () => {
     };
   }, []);
 
-  useEffect(() => {
-    console.log(NavbarState);
-  }, [NavbarState]);
   return (
     <div>
       <ModalNavbar display={NavbarState} />

@@ -179,4 +179,10 @@ export const ButtonInput = styled.input`
 export const Action = styled.div`
   display: flex;
   margin-top: 30px;
+
+  @media (max-width: 576px) {
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+  }
 `;
