@@ -1,5 +1,4 @@
 import React from "react";
-import { FaHandHolding } from "react-icons/fa";
 import * as S from "./ValueProportion-style";
 import quality from "../../assets/quality.png";
 import integrity from "../../assets/integrity.png";

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { DataProducts } from "../../Data/Product";
 import * as S from "./Products-style";
 import "slick-carousel/slick/slick.css";
@@ -22,11 +22,7 @@ const Products = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
-  const { getProductId, getProductIdDispatch, ModalState, ModalDispatch } =
-    useContext(ContextStore);
-
-  const [openModal, setOpenModal] = useState(false);
-  const [tes, setTes] = useState(null);
+  const { getProductId, ModalState } = useContext(ContextStore);
 
   return (
     <S.Tes id="product">
@@ -56,7 +52,7 @@ const Products = () => {
 export default Products;
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <ArrowProducts className={className} onClick={onClick}>
       <FaChevronCircleLeft size={20} />
@@ -65,7 +61,7 @@ function SamplePrevArrow(props) {
 }
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <ArrowProducts className={className} onClick={onClick}>
       <FaChevronCircleRight size={20} />

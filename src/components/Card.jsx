@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { ContextStore } from "../Context/ContextStore";
 import { getId } from "../Context/Action";
 
 const Card = ({ image, text, title, id, packaging, spec }) => {
-  const { getProductId, getProductIdDispatch, ModalState, ModalDispatch } =
-    useContext(ContextStore);
+  const { getProductIdDispatch, ModalDispatch } = useContext(ContextStore);
 
   const openDetails = () => {
     ModalDispatch("OPEN_MODAL");

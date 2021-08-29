@@ -1,7 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import * as S from "./Footer-style";
-import Modal from "react-modal";
 
 const Footer = () => {
   return (

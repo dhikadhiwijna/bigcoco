@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, StyledContainer } from "../../style";
+import { StyledContainer } from "../../style";
 
 export const AboutSection = styled(StyledContainer)`
   padding: 100px 0;

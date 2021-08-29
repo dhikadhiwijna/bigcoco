@@ -3,7 +3,7 @@ import abid from "../../assets/Team/abid.jpg";
 import apap from "../../assets/Team/apap.jpg";
 import dhika from "../../assets/Team/dhika.jpg";
 import * as S from "./Teams-style";
-import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { colors } from "../../style";
 
 const Teams = () => {

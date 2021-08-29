@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { colors, StyledContainer } from "../../style";
 
 export const ModalSection = styled.div`
   background-color: rgba(0, 0, 0, 0.7);

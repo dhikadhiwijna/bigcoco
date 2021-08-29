@@ -19,8 +19,6 @@ const Contact = () => {
     console.log(name, email, subject, message);
   };
 
-  const [border, setBorder] = React.useState(false);
-
   return (
     <S.Background id="contact">
       <S.ContactSection>

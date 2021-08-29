@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import jumbotron from "../../assets/jumbotron.png";
+import React from "react";
 import abid from "../../assets/abid.jpg";
 import * as S from "./Header-style";
 import coconutvideo from "../../assets/Video/coconut.mp4";
