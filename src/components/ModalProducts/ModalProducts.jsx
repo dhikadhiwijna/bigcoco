@@ -11,6 +11,7 @@ const ModalProducts = (id) => {
   const idText = id.id.data[3];
   const packaging = id.id.data[4];
   const spec = id.id.data[5];
+  console.log(id.id.data);
 
   return (
     <S.ModalSection>
@@ -28,7 +29,7 @@ const ModalProducts = (id) => {
           <h5>Product Description</h5>
           <p>{idText}</p>
 
-          {spec.length !== 0 ? (
+          {spec !== undefined ? (
             <S.ModalTextContainer>
               <h5>Specification</h5>
               <p>{spec}</p>

@@ -22,7 +22,7 @@ export const DataProducts = [
     img: briket,
     text: "Charcoal Briquette is made of granular coconut shell charcoal that is crushed charcoal and moulded using a natural binder. As fuel, it is hotter and last longer than ordinary charcoal. It is suitable for household use both indoor and outdoor.",
     packaging: `10 kgs Bag, 20 kgs Bag, Container 20 HC (17-18 MT), Container 40 HC (25-26 MT)`,
-    spec: "Ash Content: < 2.5%, Moisture: < 6%, Burning Color:White Smoke, Gross Calorific Value: > 7500Kcal/kg, Fixed Carbon: More than 78% ,Volatile Matter: < 15%, Burning Time: > 90 mins",
+    // spec: "Ash Content: < 2.5%, Moisture: < 6%, Burning Color:White Smoke, Gross Calorific Value: > 7500Kcal/kg, Fixed Carbon: More than 78% ,Volatile Matter: < 15%, Burning Time: > 90 mins",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const DataProducts = [
     text: "Coconut shell charcoal is the raw material that we use to make briquettes. However, because we are committed in innovation and quality, we have found that the material is also suitable to make activated carbon, beauty products, and natural detoxifiers.",
     packaging:
       "10 kgs Bag, 20 kgs Bag \n Container 20 HC (17-18 MT) \n Container 40 HC (25-26 MT)",
-    spec: "Ash Content: < 3%, Moisture: < 12%, Burning Color:White Smoke, Gross Calorific Value: Fixed, Fixed Carbon: More than 70% ,Volatile Matter: < 15%, Burning Time: > 90 mins",
+    // spec: "Ash Content: < 3%, Moisture: < 12%, Burning Color:White Smoke, Gross Calorific Value: Fixed, Fixed Carbon: More than 70% ,Volatile Matter: < 15%, Burning Time: > 90 mins",
   },
   {
     id: 3,
@@ -40,14 +40,14 @@ export const DataProducts = [
     text: "Desiccated Coconut is a grated, dried (3% moisture content max.), and unsweetened fresh meat or kernel of a mature fruit of coconut. Desiccated Coconuts are graded by its cutting size, for example, fine grade and medium grade where fine grade is smaller particle size than the medium grade.",
     packaging:
       "10 kgs Bag, 20 kgs Bag \n Container 20 HC (17-18 MT) \n Container 40 HC (25-26 MT)",
-    spec: "",
+    // spec: "",
   },
   {
     id: 4,
     title: "Copra",
     img: copra,
     text: "Copra is the dried flesh of coconuts. Every adult coconut tree bears 50-75 nuts that can be harvested, split with machetes and left to dry in the sun. The copra is then scraped out of the husk and gets to dry further on racks.",
-    spec: "",
+    // spec: "",
     packaging:
       "10 kgs Bag, 20 kgs Bag \n Container 20 HC (17-18 MT) \n Container 40 HC (25-26 MT)",
   },
@@ -58,7 +58,7 @@ export const DataProducts = [
     text: "Coconut meal or copra meal is produced from the ripe fruit (nut) of the coconut palm (Cocos nucifera). The nut is split and the kernel is removed and dried below 6% moisture. ",
     packaging:
       "10 kgs Bag, 20 kgs Bag \n Container 20 HC (17-18 MT) \n Container 40 HC (25-26 MT)",
-    spec: "",
+    // spec: "",
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ export const DataProducts = [
     img: fiber,
     text: "Coconut fibre is a natural fibre extracted from the outer husk of coconut and used in products such as floor mats, doormats, brushes and mattresses.  Other uses of brown coir are in upholstery padding, sacking and horticulture.",
     packaging: "Ball, Container 40 HC (17-18 MT)",
-    spec: "Coconut Fiber Color: Golden Brown, Length of Fiber: 15cm to 30cm, Moisture Content: 18% – 20%, Impurity: 2%, MaxDust: 3%, MaxHusk: 4%, MaxWeight/Ball: 90-130 Kg ",
+    // spec: "Coconut Fiber Color: Golden Brown, Length of Fiber: 15cm to 30cm, Moisture Content: 18% – 20%, Impurity: 2%, MaxDust: 3%, MaxHusk: 4%, MaxWeight/Ball: 90-130 Kg ",
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ export const DataProducts = [
     img: coirrope,
     text: "Coir Rope is a rope made from coconut fibers. Usually Coir Rope is used for Hops Farming, Sea Pineapple Cultivation, Reclamation, Control erosion, Rubber Plantation, and Creative Industry.",
     packaging: "Ball, Container 40 HC (17-18 MT)",
-    spec: "",
+    // spec: "",
   },
   {
     id: 8,
@@ -82,7 +82,7 @@ export const DataProducts = [
     img: coirmats,
     text: "Coir matting is still a firm favourite for entrance matting in the industry, due to its traditional and timeless look, and its ability to scrape and wipe dirt and footwear.",
     packaging: "Container 40 HC (25-26 MT)",
-    spec: "Material : 100 % Cocofiber, Backing : Natural Latex, Packaging : Pallet or Paper Pallet, Size/Roll : 2.1 x 40 meter, Size/Pcs : 50 cm x 70 cm / as per buyer requerement, Weight: 0,8-0,9 Kg/Pcs ",
+    // spec: "Material : 100 % Cocofiber, Backing : Natural Latex, Packaging : Pallet or Paper Pallet, Size/Roll : 2.1 x 40 meter, Size/Pcs : 50 cm x 70 cm / as per buyer requerement, Weight: 0,8-0,9 Kg/Pcs ",
   },
   // {
   //   img: oil,
@@ -94,7 +94,7 @@ export const DataProducts = [
     img: peatblocks,
     text: "Cocopeat blocks are considered an ideal growing medium. The cocopeat powder thus obtained is sieved, washed, dried and finally compressed into blocks. The blocks can be used for a wide range of planting requirements. ",
     packaging: "Sack/Block",
-    spec: "EC : > 0.6 μS/cm, Ph : 5.2 – 6.8, Moisture : 20-25 %, Color : Natural Brown, Block Size :30x30x12 cm (5 kg/block)",
+    // spec: "EC : > 0.6 μS/cm, Ph : 5.2 – 6.8, Moisture : 20-25 %, Color : Natural Brown, Block Size :30x30x12 cm (5 kg/block)",
   },
   {
     id: 10,
@@ -102,7 +102,7 @@ export const DataProducts = [
     img: vco,
     text: "Virgin coconut oil is the oil extracted from coconuts without the application of heat. It is rapidly gaining popularity throughout the world in comparison to ordinary coconut oil and for a good reason. ",
     packaging: "Jerry Can 20 lt, 22 lt, 25 lt, Container 20 HC (21-22 MT)",
-    spec: "Color in 51/4 Cell : 0%, Free fatty acid as lauric : 0.067%, Iodine Value : 7.79%, Moisture & impurities : 0.03%",
+    // spec: "Color in 51/4 Cell : 0%, Free fatty acid as lauric : 0.067%, Iodine Value : 7.79%, Moisture & impurities : 0.03%",
   },
   {
     id: 11,
@@ -111,7 +111,7 @@ export const DataProducts = [
     text: "RBD stands for refined, bleached and deodorized coconut oil obtained from crude coconut oil which has been refined by neutralization with alkali, bleached with bleaching earth or activated car- bon or both and deodorized with steam; no other chemical agents being used.",
     packaging:
       "Flexi Container, IBC Tote, Drum, Bag In Box, Jerry Can, Container 20 HC (21-22 MT)",
-    spec: "Color in 51/4 Cell : 0.4% (Grade 1), Free fatty acid as lauric : 0.075%, Iodine Value : 7% (Grade 1), Moisture & impurities : 0.1%",
+    // spec: "Color in 51/4 Cell : 0.4% (Grade 1), Free fatty acid as lauric : 0.075%, Iodine Value : 7% (Grade 1), Moisture & impurities : 0.1%",
   },
   {
     id: 12,
@@ -119,7 +119,7 @@ export const DataProducts = [
     img: cfad,
     text: "A by-product of refining of coconut oil, CFAD is used in the manufacture of detergents and paints. May be converted to mono- and diacylglycerol (M-DAG) by reacting it with glycerol in the presence of a catalyst.",
     packaging: "Flexi Container, Container 20 HC (21-22 MT)",
-    spec: "Free fatty acid as lauric : 70%, Iodine Value : 7-11.5%, Moisture & impurities : 2%",
+    // spec: "Free fatty acid as lauric : 70%, Iodine Value : 7-11.5%, Moisture & impurities : 2%",
   },
   {
     id: 13,
@@ -127,6 +127,6 @@ export const DataProducts = [
     img: palmoil,
     text: "Grown only in the tropics, the oil palm tree produces high-quality oil used primarily for cooking in developing countries. It is also used in food products, detergents, cosmetics and, to a small extent, biofuel.",
     packaging: "Flexi bag, Bag In Box, Container 20 HC (21-22 MT)",
-    spec: "Color in 51/4 Lovibond Column : 2.5%, Free fatty acid as lauric : 0.01%, Iodine Value : 58, Moisture & impurities : 0.01%, Cloud Point : 8",
+    // spec: "Color in 51/4 Lovibond Column : 2.5%, Free fatty acid as lauric : 0.01%, Iodine Value : 58, Moisture & impurities : 0.01%, Cloud Point : 8",
   },
 ];

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import contact from "../../assets/pngegg.png";
 import * as S from "./Contact-style";
+// import axios from "axios";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -9,15 +10,15 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-    setName("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
-    alert("Input Succesful");
-    console.log(name, email, subject, message);
-  };
+  // const onSubmit = (e) => {
+
+  //   e.preventDefault();
+  //   setName("");
+  //   setEmail("");
+  //   setSubject("");
+  //   setMessage("");
+  //   alert("Input Succesful");
+  // };
 
   return (
     <S.Background id="contact">
@@ -27,11 +28,16 @@ const Contact = () => {
 
           <p>
             Please feel free to contact us if you need any further information.
-            We look forward to a successful working relationship in the future
-            with you.
+            We have full specs information for all the products. We look forward
+            to a successful working relationship in the future with you.
           </p>
 
-          <form onSubmit={onSubmit}>
+          <form
+            target="_blank"
+            action="https://formsubmit.co/adiwijna@gmail.com"
+            method="POST"
+            // onSubmit={(e) => onSubmit(e)}
+          >
             <div>
               <S.InputNameEmail>
                 <S.labelInputName>
@@ -41,6 +47,9 @@ const Contact = () => {
                     onChange={(e) => {
                       setName(e.target.value);
                     }}
+                    type="text"
+                    name="name"
+                    className="form-control"
                     required
                   />
                   <div />
@@ -51,6 +60,8 @@ const Contact = () => {
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    name="email"
+                    className="form-control"
                     required
                   />
                   <div />
@@ -61,6 +72,9 @@ const Contact = () => {
                   placeholder="Subject"
                   value={subject}
                   onChange={(e) => setSubject(e.target.value)}
+                  type="text"
+                  name="subject"
+                  className="form-control"
                   required
                 />
                 <div />
@@ -71,6 +85,9 @@ const Contact = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   style={{ height: "150px", resize: "none" }}
+                  name="message"
+                  rows="10"
+                  className="form-control"
                   required
                 />
                 <div />

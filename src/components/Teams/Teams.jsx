@@ -94,7 +94,7 @@ const Teams = () => {
                   size={20}
                   onClick={() => {
                     window.open(
-                      "https://www.linkedin.com/in/abid-robbani-523b9321a/"
+                      "https://www.linkedin.com/in/naufal-afaf-b49bb7153/"
                     );
                   }}
                 />
