@@ -20,9 +20,9 @@ const ValueProportion = () => {
 
             <h4>Integrity</h4>
             <p>
-              Integrity means telling the truth, keeping our word and treating
-              others with fairness and respect. Integrity is one of our most
-              cherished assets. It must not be compromised.
+              The basis of our work attitude is in accordance with our words and
+              actions with a high commitment to maintaining the trust of all our
+              stakeholders
             </p>
           </S.ValueCard>
           <S.ValueCard>
@@ -31,10 +31,10 @@ const ValueProportion = () => {
             </S.LogoContainer>
             <h4>Quality</h4>
             <p>
-              Quality is exhibited in many ways by selling and supporting
-              products and services that delight customers, establishing a work
-              environment , delivering financial results that meet investor
-              expectations.
+              We build and maintain the best quality with the designs that we
+              designed from the beginning. This coconut product is grown,
+              treated, and processed with the best innovations that we provide
+              until it reaches the hands of every customer.
             </p>
           </S.ValueCard>
           <S.ValueCard>
@@ -43,10 +43,10 @@ const ValueProportion = () => {
             </S.LogoContainer>
             <h4>Commitment</h4>
             <p>
-              Commitment is important where we will continue to provide the best
-              to our customers and investors all the time. Our opportunity to
-              serve should be viewed as a privilege that is not to be taken for
-              granted.
+              We establish and consistently maintain good cooperative
+              relationships with all stakeholders: customers, government,
+              investors in order to create a healthy, reliable, trustworthy and
+              generous company that continues to grow and develop.
             </p>
           </S.ValueCard>
           <S.ValueCard>

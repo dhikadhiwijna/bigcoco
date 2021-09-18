@@ -58,7 +58,11 @@ export const SocialMedia = styled.div`
 
   & > div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
+    & > .socialMediaIcon {
+      cursor: pointer;
+    }
   }
 
   @media (max-width: 800px) {

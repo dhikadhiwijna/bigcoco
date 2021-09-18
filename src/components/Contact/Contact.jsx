@@ -103,7 +103,7 @@ const Contact = () => {
                   window.open("https://wa.me/6287780035272");
                 }}
               >
-                Contact via <FaWhatsapp size={20} />
+                Contact via <FaWhatsapp size={25} />
               </S.ButtonJumbotron>
             </S.Action>
           </form>

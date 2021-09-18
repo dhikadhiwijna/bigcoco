@@ -13,17 +13,16 @@ const Header = () => {
       </video>
       <S.HeaderTitle>
         <S.QuoteDiv>
-          {/* <img src={abid} alt="abidlul" /> */}
           <h4>
-            Best, reliable, and trustworthy coconut supplier from Indonesia
+            Best, guaranteed, and trustworthy coconut supplier from Indonesia
           </h4>
         </S.QuoteDiv>
 
-        <h1>Supplying coconut products in the Heart of South East Asia</h1>
+        <h1>Supplying coconut products from the Heart of South East Asia</h1>
 
         <S.ButtonJumbotron>
           <FaChevronDown style={{ marginRight: "10px" }} />
-          {/* Scroll Down */}
+
           <Link
             className="link"
             to="about"

@@ -34,7 +34,7 @@ const Navbar = () => {
         <S.NavbarContainer shadow={shadow}>
           <S.Logo onClick={() => Scroll.scrollToTop()}>
             <img src={bigcoco} alt="bigcocologo" />
-            <h4>Big Coco Indonesia</h4>
+            <h4>Big Coco Global</h4>
           </S.Logo>
           <S.ListItems>
             <S.NavItem>

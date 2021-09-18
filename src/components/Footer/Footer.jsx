@@ -13,7 +13,7 @@ const Footer = () => {
 
         <S.MainFooter>
           <S.LeftContainer>
-            <h5>Big Coco Indonesia</h5>
+            <h5>Big Coco Global</h5>
             <h5>PT. Gabah Dunak</h5>
             <p>
               We also continue to update the information about the company
@@ -27,9 +27,23 @@ const Footer = () => {
           <S.SocialMedia>
             <h5>Social Media:</h5>
             <div>
-              <FaFacebook size={30} />
-              <FaInstagram size={30} />
-              <FaLinkedin size={30} />
+              <FaFacebook
+                size={30}
+                className="socialMediaIcon"
+                onClick={() =>
+                  window.open("https://www.facebook.com/bigcocoindonesia")
+                }
+              />
+              {/* <FaInstagram size={30} /> */}
+              <FaLinkedin
+                size={30}
+                className="socialMediaIcon"
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/company/big-coco-global/"
+                  )
+                }
+              />
             </div>
           </S.SocialMedia>
         </S.MainFooter>

@@ -40,6 +40,7 @@ export const Logo = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  min-width: 300px;
 
   & > img {
     width: 50px;

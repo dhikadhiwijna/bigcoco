@@ -2,6 +2,7 @@ import React from "react";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Copyright from "./components/Copyright/Copyright";
+import FloatingComponent from "./components/FloatingComponent";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
@@ -13,6 +14,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <FloatingComponent />
       <Header />
       <About />
       <ValueProportion />

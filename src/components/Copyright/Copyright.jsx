@@ -7,7 +7,7 @@ const Copyright = () => {
   return (
     <TextCopyright>
       <p>
-        <FaCopyright /> 2021 Big Coco Indonesia. All rights reserved.
+        <FaCopyright /> 2021 Big Coco Global. All rights reserved.
       </p>
     </TextCopyright>
   );
