@@ -1,23 +1,39 @@
 import React from "react";
-import jumbotron from "../../assets/jumbotron.png";
-import abid from "../../assets/abid.jpg";
 import * as S from "./Header-style";
+import coconutvideo from "../../assets/Video/coconut.mp4";
+import { FaChevronDown } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
     <S.HeaderSection>
-      <img src={jumbotron} alt="jumbotron" />
+      {/* <img src={jumbotron} alt="jumbotron" /> */}
+      <video className="videoTag" autoPlay loop muted>
+        <source src={coconutvideo} type="video/mp4" />
+      </video>
       <S.HeaderTitle>
         <S.QuoteDiv>
-          <img src={abid} alt="abidlul" />
-          <h5>
-            "Sometimes coconut is taken in our toilet, ez" -Abid Robbani, CEO
-          </h5>
+          <h4>
+            Best, guaranteed, and trustworthy coconut supplier from Indonesia
+          </h4>
         </S.QuoteDiv>
 
-        <h1>We have better coconut than Universal Coco</h1>
+        <h1>Supplying coconut products from the Heart of South East Asia</h1>
 
-        <S.ButtonJumbotron>Learn More</S.ButtonJumbotron>
+        <S.ButtonJumbotron>
+          <FaChevronDown style={{ marginRight: "10px" }} />
+
+          <Link
+            className="link"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Scroll Down
+          </Link>
+        </S.ButtonJumbotron>
       </S.HeaderTitle>
     </S.HeaderSection>
   );

@@ -7,10 +7,24 @@ import Slider from "react-slick";
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 import Card from "../Card";
 import styled from "styled-components";
+import ModalProducts from "../ModalProducts/ModalProducts";
+import { useContext } from "react";
+import { ContextStore } from "../../Context/ContextStore";
 
 const Products = () => {
+  const [dimensions, setDimensions] = useState({ width: window.innerWidth });
+
+  useEffect(() => {
+    let handleResize = () => {
+      setDimensions({ width: window.innerWidth });
+    };
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [dimensions]);
+
   const settings = {
-    dots: true,
+    dots: dimensions.width < 700 ? false : true,
     lazyLoad: true,
     infinite: true,
     speed: 500,
@@ -19,6 +33,7 @@ const Products = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
+  const { getProductId, ModalState } = useContext(ContextStore);
 
   return (
     <S.Tes id="product">
@@ -26,14 +41,20 @@ const Products = () => {
       <S.ProductSection>
         <Slider {...settings}>
           {DataProducts.map((value, index) => (
-            <Card
-              title={value.title}
-              image={value.img}
-              text={value.text}
-              key={index}
-            />
+            <div key={index}>
+              <Card
+                title={value.title}
+                image={value.img}
+                text={value.text}
+                id={value.id}
+                packaging={value.packaging}
+                spec={value.spec}
+              />
+            </div>
           ))}
         </Slider>
+
+        {ModalState && <ModalProducts id={getProductId} />}
       </S.ProductSection>
     </S.Tes>
   );
@@ -42,7 +63,7 @@ const Products = () => {
 export default Products;
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <ArrowProducts className={className} onClick={onClick}>
       <FaChevronCircleLeft size={20} />
@@ -51,7 +72,7 @@ function SamplePrevArrow(props) {
 }
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <ArrowProducts className={className} onClick={onClick}>
       <FaChevronCircleRight size={20} />

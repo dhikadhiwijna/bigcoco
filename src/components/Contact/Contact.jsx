@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import contact from "../../assets/contact.svg";
+import contact from "../../assets/pngegg.png";
 import * as S from "./Contact-style";
+// import axios from "axios";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  // const onSubmit = (e) => {
+
+  //   e.preventDefault();
+  //   setName("");
+  //   setEmail("");
+  //   setSubject("");
+  //   setMessage("");
+  //   alert("Input Succesful");
+  // };
+
   return (
     <S.Background id="contact">
       <S.ContactSection>
@@ -11,39 +27,83 @@ const Contact = () => {
           <h3>Contact Us!</h3>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ab
-            itaque quo blanditiis nostrum amet repudiandae quam commodi
-            voluptatem? Adipisci?
+            Please feel free to contact us if you need any further information.
+            We have full specs information for all the products. We look forward
+            to a successful working relationship in the future with you.
           </p>
 
-          <form>
+          <form
+            target="_blank"
+            action="https://formsubmit.co/adiwijna@gmail.com"
+            method="POST"
+            // onSubmit={(e) => onSubmit(e)}
+          >
             <div>
               <S.InputNameEmail>
                 <S.labelInputName>
-                  <input placeholder="Name" />
+                  <input
+                    placeholder="Name"
+                    value={name}
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
+                    type="text"
+                    name="name"
+                    className="form-control"
+                    required
+                  />
                   <div />
                 </S.labelInputName>
                 <S.labelInputEmail>
-                  <input placeholder="Email" type="email" />
+                  <input
+                    placeholder="Email"
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    name="email"
+                    className="form-control"
+                    required
+                  />
                   <div />
                 </S.labelInputEmail>
               </S.InputNameEmail>
               <S.CustomInput>
-                <input placeholder="Subject" />
+                <input
+                  placeholder="Subject"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  type="text"
+                  name="subject"
+                  className="form-control"
+                  required
+                />
                 <div />
               </S.CustomInput>
               <S.CustomInput>
                 <textarea
                   placeholder="Message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   style={{ height: "150px", resize: "none" }}
+                  name="message"
+                  rows="10"
+                  className="form-control"
+                  required
                 />
                 <div />
               </S.CustomInput>
             </div>
             <S.Action>
-              <S.ButtonJumbotron>Send Message!</S.ButtonJumbotron>
-              <S.ButtonJumbotron>
-                Contact via <FaWhatsapp />
+              <S.ButtonInput
+                type="submit"
+                value="Send Message!"
+              ></S.ButtonInput>
+              <S.ButtonJumbotron
+                onClick={() => {
+                  window.open("https://wa.me/6287780035272");
+                }}
+              >
+                Contact via <FaWhatsapp size={25} />
               </S.ButtonJumbotron>
             </S.Action>
           </form>

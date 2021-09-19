@@ -40,6 +40,7 @@ export const Logo = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  min-width: 300px;
 
   & > img {
     width: 50px;
@@ -93,10 +94,56 @@ export const ListItems = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 600px;
+`;
 
+export const SlideContainer = styled.div`
+  display: none;
+  cursor: pointer;
+  padding-right: 20px;
 
-    /* &:hover {
-      border-bottom: 1px solid white;
-    } */
+  @media (max-width: 990px) {
+    display: inline-block;
+  }
+`;
+
+export const Box = styled.div`
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+
+  & > .times {
+    z-index: 101;
+  }
+`;
+
+export const BoxContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: ${colors.darkGreen};
+`;
+
+export const ModalLogo = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: 30px;
+  /* background-color: red; */
+  width: 100%;
+`;
+
+export const Text = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 100%;
+
+  & > h3 {
+    color: white;
   }
 `;

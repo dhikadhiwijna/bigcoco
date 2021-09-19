@@ -19,7 +19,7 @@ export const ValueHeader = styled.div`
 export const Value = styled.div`
   display: flex;
   justify-content: space-between;
-  /* background-color: red; */
+  align-items: flex-start;
 
   @media (max-width: 990px) {
     flex-wrap: wrap;
@@ -30,7 +30,7 @@ export const Value = styled.div`
 export const ValueCard = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   margin: 0 20px;
@@ -39,6 +39,7 @@ export const ValueCard = styled.div`
 
   & > p {
     color: ${colors.black};
+    margin-top: 10px;
   }
 `;
 

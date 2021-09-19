@@ -1,5 +1,4 @@
 import React from "react";
-import { FaHandHolding } from "react-icons/fa";
 import * as S from "./ValueProportion-style";
 import quality from "../../assets/quality.png";
 import integrity from "../../assets/integrity.png";
@@ -21,8 +20,9 @@ const ValueProportion = () => {
 
             <h4>Integrity</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos esse
-              ab illo rem adipisci? Voluptatem ipsam ex magnam corporis aut?
+              The basis of our work attitude is in accordance with our words and
+              actions with a high commitment to maintaining the trust of all our
+              stakeholders
             </p>
           </S.ValueCard>
           <S.ValueCard>
@@ -31,8 +31,10 @@ const ValueProportion = () => {
             </S.LogoContainer>
             <h4>Quality</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos esse
-              ab illo rem adipisci? Voluptatem ipsam ex magnam corporis aut?
+              We build and maintain the best quality with the designs that we
+              designed from the beginning. This coconut product is grown,
+              treated, and processed with the best innovations that we provide
+              until it reaches the hands of every customer.
             </p>
           </S.ValueCard>
           <S.ValueCard>
@@ -41,8 +43,10 @@ const ValueProportion = () => {
             </S.LogoContainer>
             <h4>Commitment</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos esse
-              ab illo rem adipisci? Voluptatem ipsam ex magnam corporis aut?
+              We establish and consistently maintain good cooperative
+              relationships with all stakeholders: customers, government,
+              investors in order to create a healthy, reliable, trustworthy and
+              generous company that continues to grow and develop.
             </p>
           </S.ValueCard>
           <S.ValueCard>
@@ -51,8 +55,9 @@ const ValueProportion = () => {
             </S.LogoContainer>
             <h4>Community</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos esse
-              ab illo rem adipisci? Voluptatem ipsam ex magnam corporis aut?
+              Community involvement can allow people to know our brand, product,
+              or sell better, and helps us create a realiable, trustworthy, and
+              generous business image.
             </p>
           </S.ValueCard>
         </S.Value>

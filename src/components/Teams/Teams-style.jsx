@@ -52,8 +52,8 @@ export const ImageContainer = styled.div`
   margin-bottom: 30px;
 
   & > img {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
   }
@@ -65,4 +65,5 @@ export const SocialMedia = styled.div`
   align-items: center;
   max-width: 100%;
   padding-top: 20px;
+  margin-top: 30px;
 `;
