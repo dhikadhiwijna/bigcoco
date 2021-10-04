@@ -18,9 +18,9 @@ const FloatingComponent = () => {
 
 export default FloatingComponent;
 
-const contactTitle = styled.h5`
-  margin-bottom: 10px;
-`;
+// const contactTitle = styled.h5`
+//   margin-bottom: 10px;
+// `;
 
 const FloatIcon = styled.div`
   position: fixed;
