@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import * as S from "./Navbar-style";
-import bigcoco from "../../assets/bigcoco1.png";
+import bigcoco from "../../assets/bigcoco1.webp";
 import { Link, animateScroll as Scroll } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 import Modal from "react-modal";

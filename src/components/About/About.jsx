@@ -1,4 +1,4 @@
-import aboutus from "../../assets/coconutabout.jpg";
+import aboutus from "../../assets/coconutabout.webp";
 import * as S from "./About-style";
 
 const About = () => {
